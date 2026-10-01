@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ENQ-35 Timetable</title><style>
+:root{--bg:#f2f5f7;--card:#fff;--ink:#14232c;--mute:#5b6b75;--line:#d5dee3;--up:#1f6f8b;--low:#a35a12;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--card:#17262e;--ink:#e8eff2;--mute:#9fb0b9;--line:#2a3d47;--up:#5fb6d3;--low:#e6a25c}}
+:root[data-theme="dark"]{--bg:#0f1a20;--card:#17262e;--ink:#e8eff2;--mute:#9fb0b9;--line:#2a3d47;--up:#5fb6d3;--low:#e6a25c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:20px 16px 32px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 20px}
+.slot{display:grid;grid-template-columns:64px 1fr;gap:12px;margin-bottom:14px}
+.time{font-weight:700;font-size:1.05rem;padding-top:14px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.part{padding:12px 14px}
+.part+.part{border-top:1px dashed var(--line)}
+.part.up{border-left:4px solid var(--up)}
