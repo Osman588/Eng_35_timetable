@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ENQ-35 Timetable</title><style>
+:root{--bg:#f2f5f7;--card:#fff;--ink:#14232c;--mute:#5b6b75;--line:#d5dee3;--up:#1f6f8b;--low:#a35a12;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a20;--card:#17262e;--ink:#e8eff2;--mute:#9fb0b9;--line:#2a3d47;--up:#5fb6d3;--low:#e6a25c}}
+:root[data-theme="dark"]{--bg:#0f1a20;--card:#17262e;--ink:#e8eff2;--mute:#9fb0b9;--line:#2a3d47;--up:#5fb6d3;--low:#e6a25c}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:640px;margin:0 auto;padding:20px 16px 32px}
+h1{font-size:1.6rem;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 20px}
+.slot{display:grid;grid-template-columns:64px 1fr;gap:12px;margin-bottom:14px}
+.time{font-weight:700;font-size:1.05rem;padding-top:14px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.part{padding:12px 14px}
+.part+.part{border-top:1px dashed var(--line)}
+.part.up{border-left:4px solid var(--up)}
+.part.low{border-left:4px solid var(--low)}
+.wk{font-size:.85rem;font-weight:600;margin-bottom:2px}
+.up .wk{color:var(--up)}.low .wk{color:var(--low)}
+.name{font-weight:600}
+.meta{color:var(--mute);font-size:.92rem;margin-top:2px}
+.note{color:var(--mute);font-size:.9rem;border-top:1px solid var(--line);margin-top:22px;padding-top:14px}
+h2{font-size:1.15rem;margin:26px 0 10px}.free{color:var(--mute);margin:0 0 6px}</style></head>
+<body><main><h1>Group ENQ-35</h1>
+<p class="sub">Year 1, first shift, autumn 2026-2027. Baku State University, Faculty of Applied Mathematics and Cybernetics. Days I to V are probably Monday to Friday.</p>
+<h2>Day I</h2><p class="free">No classes</p><h2>Day II</h2><section class="slot"><div class="time">8:30</div><div class="box"><div class="part up"><div class="wk">Upper week</div><div class="name">Business and academic communication in a foreign language 1</div><div class="meta">Subgroup 1: Seyidova N., room 203<br>Subgroup 2: Paşayeva P., room 202</div></div><div class="part low"><div class="wk">Lower week</div><div class="name">Business and academic communication in Azerbaijani</div><div class="meta">Əliyeva Ş., room 202</div></div></div></section><section class="slot"><div class="time">10:15</div><div class="box"><div class="part "><div class="name">Business and academic communication in a foreign language 1</div><div class="meta">Subgroup 1: Seyidova N., room 203<br>Subgroup 2: Paşayeva P., room 202</div></div></div></section><section class="slot"><div class="time">12:00</div><div class="box"><div class="part "><div class="name">Programming fundamentals 1</div><div class="meta">Subgroup 1: Zeynalov İ., room 301a<br>Subgroup 2: Hacı E., room 301c</div></div></div></section><h2>Day III</h2><section class="slot"><div class="time">8:30</div><div class="box"><div class="part "><div class="name">Programming fundamentals 1</div><div class="meta">Zeynalov İ., room 301a</div></div></div></section><section class="slot"><div class="time">10:15</div><div class="box"><div class="part up"><div class="wk">Upper week</div><div class="name">Mathematical analysis 1</div><div class="meta">Mustafayeva Y., room 411</div></div><div class="part low"><div class="wk">Lower week</div><div class="name">Analytic geometry</div><div class="meta">Mustafayeva Y., room 411</div></div></div></section><section class="slot"><div class="time">12:00</div><div class="box"><div class="part "><div class="name">Business and academic communication in Azerbaijani</div><div class="meta">Əliyeva Ş., room 405</div></div></div></section><h2>Day IV</h2><section class="slot"><div class="time">8:30</div><div class="box"><div class="part "><div class="name">Programming fundamentals 1</div><div class="meta">Zeynalov İ., room 301a</div></div></div></section><section class="slot"><div class="time">10:15</div><div class="box"><div class="part "><div class="name">Mathematical analysis 1</div><div class="meta">Mustafayeva Y., room 411</div></div></div></section><section class="slot"><div class="time">12:00</div><div class="box"><div class="part "><div class="name">Business and academic communication in a foreign language 1</div><div class="meta">Subgroup 1: Seyidova N., room 207<br>Subgroup 2: Paşayeva P., room 205</div></div></div></section><h2>Day V</h2><section class="slot"><div class="time">8:30</div><div class="box"><div class="part "><div class="name">Mathematical analysis 1</div><div class="meta">Mustafayeva Y., room 413</div></div></div></section><section class="slot"><div class="time">10:15</div><div class="box"><div class="part "><div class="name">Analytic geometry</div><div class="meta">Mustafayeva Y., room 413</div></div></div></section>
+<p class="note">Upper and lower weeks alternate: a box split in two on the original sheet means the top class runs one week and the bottom class the next. Classes with two subgroups: ask your faculty office which one you are in. Built from the file "Cədvəl 2026 2027 I Semestr".</p>
+</main></body></html>
